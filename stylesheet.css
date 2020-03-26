@@ -1,0 +1,56 @@
+.carousel-inner > .item {max-height: 400px; background-size: auto; background-position: center center;}
+
+#headport { font-size: 100px; padding-top: 100px; padding-right: 30px; background-color: black; color: white;}
+#abstract1, #abstract2, #abstract3, #abstract4 { font-size: 30px;}
+#absbody1, #absbody2, #absbody3, #absbody4 { font-size: 15px; font-style: italic;}
+#research1, #research2, #research3, #research4 { font-size: 50px;}
+#researchbody1, #researchbody2, #researchbody3, #researchbody4 { }
+
+/* Media query small devices*/
+@media (min-width: 576px) {
+  #slidetitle1, #slidetitle2, #slidetitle3 {
+    font-size: 20px;
+  }
+  #slidesubtitle1, #slidesubtitle2, #slidesubtitle3 {
+    font-size: 10px;
+  }
+/* Media query medium devices*/
+}
+@media (min-width:768px) {
+  #slidetitle1, #slidetitle2, #slidetitle3 {
+    font-size: 40px;
+  }
+  #slidesubtitle1, #slidesubtitle2, #slidesubtitle3 {
+    font-size: 20px;
+  }
+/* Media query large devices*/
+}
+@media (min-width:992px) {
+  #slidetitle1, #slidetitle2, #slidetitle3 {
+    font-size: 50px;
+  }
+  #slidesubtitle1, #slidesubtitle2, #slidesubtitle3 {
+    font-size: 25px;
+  }
+/* Media query extra large devices*/
+}
+@media (min-width:1200px) {
+  #slidetitle1, #slidetitle2, #slidetitle3 {
+    font-size: 80px;
+  }
+  #slidesubtitle1, #slidesubtitle2, #slidesubtitle3 {
+    font-size: 40px;
+  }
+  #caption1 {
+    bottom: 300px;
+  }
+  #caption2 {
+    position: absolute;
+    top: 70px;
+  }
+  #caption3 {
+    postion: absolute;
+    top: 100px;
+    right:50%;
+  }
+}
