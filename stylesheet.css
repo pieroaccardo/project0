@@ -1,37 +1,74 @@
 .carousel-inner > .item {max-height: 400px; background-size: auto; background-position: center center;}
 
-#headport { font-size: 100px; padding-top: 100px; padding-right: 30px; background-color: black; color: white;}
-#abstract1, #abstract2, #abstract3, #abstract4 { font-size: 30px;}
-#absbody1, #absbody2, #absbody3, #absbody4 { font-size: 15px; font-style: italic;}
-#research1, #research2, #research3, #research4 { font-size: 50px;}
-#researchbody1, #researchbody2, #researchbody3, #researchbody4 { }
-
+#headport { font-size: 100px; padding-top: 100px; padding-right: 50px; background-color: black; color: white;}
+#abstract1, #abstract2, #abstract3, #abstract4 { font-size: 40px;}
+#absbody1, #absbody2, #absbody3, #absbody4 { font-size: 20px; font-style: italic;}
+#research1, #research2, #research3, #research4 { font-size: 30px;}
+#researchbody1, #researchbody2, #researchbody3, #researchbody4 { font-size: 20px;}
+#grouplist a {
+  font-size: 30px;
+}
+#services {
+  background-color: silver;
+  color: white;
+  align: center;
+  width:100%;
+  margin-top: 10px;
+  padding-left: 10px;
+}
+footer {
+  background-color: black;
+  width: 100%;
+  font-size: 12px;
+  color: white;
+  padding-left: 30px;
+}
+#education, #experience {
+  margin-top: 500px;
+}
 /* Media query small devices*/
-@media (min-width: 576px) {
+@media (min-width: 576px) and (max-width:767px) {
   #slidetitle1, #slidetitle2, #slidetitle3 {
     font-size: 20px;
   }
   #slidesubtitle1, #slidesubtitle2, #slidesubtitle3 {
     font-size: 10px;
   }
+  #headport { font-size: 60px; padding-top: 60px; padding-right: 30px;}
+  #abstract1, #abstract2, #abstract3, #abstract4 { font-size: 15px;}
+  #absbody1, #absbody2, #absbody3, #absbody4 { font-size: 10px; font-style: italic;}
+  #research1, #research2, #research3, #research4 { font-size: 25px;}
+  #researchbody1, #researchbody2, #researchbody3, #researchbody4 { font-size: 12.5px;}
+  #grouplist a {
+    font-size: 10px;
+  }
 /* Media query medium devices*/
 }
-@media (min-width:768px) {
+@media (min-width:768px) and (max-width:991px) {
   #slidetitle1, #slidetitle2, #slidetitle3 {
     font-size: 40px;
   }
   #slidesubtitle1, #slidesubtitle2, #slidesubtitle3 {
     font-size: 20px;
   }
+  #headport { font-size: 80px; padding-top: 80px; padding-right: 50px;}
+  #abstract1, #abstract2, #abstract3, #abstract4 { font-size: 25px;}
+  #absbody1, #absbody2, #absbody3, #absbody4 { font-size: 15px; font-style: italic;}
+  #research1, #research2, #research3, #research4 { font-size: 30px;}
+  #researchbody1, #researchbody2, #researchbody3, #researchbody4 { font-size: 20px;}
+  #grouplist a {
+    font-size: 15px;
+  }
 /* Media query large devices*/
 }
-@media (min-width:992px) {
+@media (min-width:992px) and (max-width:1199px){
   #slidetitle1, #slidetitle2, #slidetitle3 {
     font-size: 50px;
   }
   #slidesubtitle1, #slidesubtitle2, #slidesubtitle3 {
     font-size: 25px;
   }
+
 /* Media query extra large devices*/
 }
 @media (min-width:1200px) {
